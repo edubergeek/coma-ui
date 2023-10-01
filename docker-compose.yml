@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  coma-ui:
+    build: .
+    image: coma-ui
+    container_name: coma-ui
+    ports:
+      - 8080:8080
+    #command: npm start
